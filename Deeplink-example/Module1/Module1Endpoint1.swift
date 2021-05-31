@@ -9,8 +9,7 @@ import UIKit
 
 final class Module1Endpoint1: RoutingEndpoint {
 	var isAvailable: Bool {
-		let module = Module2.module as? RoutingAssembly
-		return module?.isTransitionAvailable(for: Module1TransitionKey.transition1.rawValue) ?? false
+		return Module1.module.isTransitionAvailable(for: Module1TransitionKey.transition1.rawValue)
 	}
 
 	func startTransition(in navigation: UINavigationController?) {

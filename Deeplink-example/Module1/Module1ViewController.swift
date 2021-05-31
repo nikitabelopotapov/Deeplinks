@@ -12,13 +12,15 @@ final class Module1ViewController: UIViewController {
 	let transition2Button = UIButton()
 	override func viewDidLoad() {
 		super.viewDidLoad()
-
+		view.backgroundColor = .white
 		view.addSubview(transition1Button)
+		transition1Button.setTitleColor(.black, for: .normal)
 		transition1Button.setTitle("Transition 1", for: .normal)
 		transition1Button.translatesAutoresizingMaskIntoConstraints = false
 		transition1Button.addTarget(self, action: #selector(transition1), for: .touchUpInside)
 
 		view.addSubview(transition2Button)
+		transition2Button.setTitleColor(.black, for: .normal)
 		transition2Button.setTitle("Transition 2", for: .normal)
 		transition2Button.translatesAutoresizingMaskIntoConstraints = false
 		transition2Button.addTarget(self, action: #selector(transition2), for: .touchUpInside)
@@ -32,8 +34,6 @@ final class Module1ViewController: UIViewController {
 			transition2Button.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20.0),
 			transition2Button.centerYAnchor.constraint(equalTo: view.centerYAnchor),
 		])
-
-		view.backgroundColor = .green
 	}
 
 
