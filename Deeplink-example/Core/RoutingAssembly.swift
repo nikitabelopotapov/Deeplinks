@@ -7,7 +7,10 @@
 
 import Foundation
 
+/// Assembly for preparing transition for one specific module
 protocol RoutingAssembly {
-	func isTransitionAvailable(for key: String) -> Bool
+
+	/// Method finds endpoint for transition path passed into method
+	/// - Parameter key: transition path
 	func endpoint(for key: String) -> RoutingEndpoint.Type?
 }

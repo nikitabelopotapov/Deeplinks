@@ -9,4 +9,5 @@ import Foundation
 
 protocol FeatureModule {
 	static var module: FeatureModule { get }
+	func isTransitionAvailable(for key: String) -> Bool
 }

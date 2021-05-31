@@ -7,7 +7,14 @@
 
 import UIKit
 
+/*
+	Error handling during transition
+	in this example we only cover unsupported transition - endpoint doesn't exists in assemblies
+	unavailable transition - transition turned off for some reason
+*/
 protocol RoutingErrorHandlerProtocol {
+
+	///
 	func handleUnavailableTransition()
 	func handleUnsupportedTransition()
 }

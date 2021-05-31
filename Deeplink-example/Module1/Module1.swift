@@ -49,6 +49,7 @@ extension Module1: RoutingAssembly {
 }
 
 
+/// Mock struct to show how endpoint availability could be used
 struct YourAvailabilityFacade1 {
 	let isTransition1Available = true
 	let isTransition2Available = false
