@@ -1,5 +1,5 @@
 //
-//  Module2DetailViewController.swift
+//  ContactsDetailViewController.swift
 //  Deeplink-example
 //
 //  Created by Nikita Belopotapov on 29.05.2021.
@@ -7,12 +7,12 @@
 
 import UIKit
 
-final class Module2DetailViewController1: UIViewController {
+final class ContactsDetailViewController: UIViewController {
 	private let textLabel = UILabel()
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		textLabel.translatesAutoresizingMaskIntoConstraints = false
-		textLabel.text = "\(Module2DetailViewController1.self)"
+		textLabel.text = "\(ContactsDetailViewController.self)"
 
 		view.addSubview(textLabel)
 		NSLayoutConstraint.activate([

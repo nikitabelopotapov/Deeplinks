@@ -16,19 +16,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
 		// First module configuration
-		let navigationController1 = UINavigationController()
-		let viewController1 = Module1ViewController()
-		navigationController1.setViewControllers([viewController1], animated: false)
-		viewController1.tabBarItem = UITabBarItem(tabBarSystemItem: .bookmarks, tag: 0)
+		let bookmarksNavigationController = UINavigationController()
+		let bookmarksViewController = BookmarksViewController()
+		bookmarksNavigationController.setViewControllers([bookmarksViewController], animated: false)
+		bookmarksViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .bookmarks, tag: 0)
 
 		// Second module configuration
-		let navigationController2 = UINavigationController()
-		let viewController2 = Module2ViewController()
-		navigationController2.setViewControllers([viewController2], animated: false)
-		viewController2.tabBarItem = UITabBarItem(tabBarSystemItem: .contacts, tag: 1)
+		let contactsNavigationController = UINavigationController()
+		let contastViewController = ContactsViewController()
+		contactsNavigationController.setViewControllers([contastViewController], animated: false)
+		contastViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .contacts, tag: 1)
 
 		// Tabbar configuration
-		tabbarController.setViewControllers([navigationController1, navigationController2], animated: true)
+		tabbarController.setViewControllers([bookmarksNavigationController, contactsNavigationController], animated: true)
 
 
 		// Window configuration
@@ -42,12 +42,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		router.set(errorHandler: errorHandler)
 
 		// Adding modules as routing assemblies for router
-		if let module1 = Module1.module as? RoutingAssembly {
-			router.append(assembly: module1)
+		if let bookmarksModule = BookmarksModule.module as? RoutingAssembly {
+			router.append(assembly: bookmarksModule)
 		}
 
-		if let module2 = Module2.module as? RoutingAssembly {
-			router.append(assembly: module2)
+		if let contactsModule = ContactsModule.module as? RoutingAssembly {
+			router.append(assembly: contactsModule)
 		}
 		return true
 	}

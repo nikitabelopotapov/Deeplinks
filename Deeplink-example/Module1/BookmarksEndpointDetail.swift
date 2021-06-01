@@ -1,5 +1,5 @@
 //
-//  Module1Endpoint2.swift
+//  BookmarksEndpointDetail.swift
 //  Deeplink-example
 //
 //  Created by Nikita Belopotapov on 29.05.2021.
@@ -7,13 +7,13 @@
 
 import UIKit
 
-final class Module1Endpoint2: RoutingEndpoint {
+final class BookmarksEndpointDetail: RoutingEndpoint {
 	var isAvailable: Bool {
-		return Module1.module.isTransitionAvailable(for: Module1TransitionKey.transition2.rawValue)
+		return BookmarksModule.module.isTransitionAvailable(for: BookmarksModuleTransitionKey.bookmarkDetail.rawValue)
 	}
 
 	func startTransition(in navigation: UINavigationController?) {
-		let viewController = Module1DetailViewController2()
+		let viewController = BookmarksDetailViewController()
 		navigation?.pushViewController(viewController, animated: true)
 	}
 }

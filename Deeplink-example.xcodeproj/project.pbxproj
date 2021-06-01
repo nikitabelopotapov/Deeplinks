@@ -10,22 +10,20 @@
 		0E5AD9A12662523A006E87FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5AD9A02662523A006E87FB /* AppDelegate.swift */; };
 		0E5AD9AA2662523B006E87FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E5AD9A92662523B006E87FB /* Assets.xcassets */; };
 		0E5AD9AD2662523B006E87FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E5AD9AB2662523B006E87FB /* LaunchScreen.storyboard */; };
-		0E5AD9B526625275006E87FB /* Module1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5AD9B426625275006E87FB /* Module1.swift */; };
+		0E5AD9B526625275006E87FB /* BookmarksModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5AD9B426625275006E87FB /* BookmarksModule.swift */; };
 		0E5AD9B72662533A006E87FB /* RoutingProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5AD9B62662533A006E87FB /* RoutingProvider.swift */; };
 		0E5AD9B926625369006E87FB /* RoutingEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5AD9B826625369006E87FB /* RoutingEndpoint.swift */; };
-		0E5AD9BE26625C91006E87FB /* Module1Endpoint1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5AD9BD26625C91006E87FB /* Module1Endpoint1.swift */; };
+		0E5AD9BE26625C91006E87FB /* BookmarksEndpointDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5AD9BD26625C91006E87FB /* BookmarksEndpointDetail.swift */; };
 		0E5AD9C026625DE6006E87FB /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5AD9BF26625DE6006E87FB /* Module.swift */; };
-		0E5AD9C2266276F9006E87FB /* Module2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5AD9C1266276F9006E87FB /* Module2.swift */; };
-		0E5AD9C42663A8D2006E87FB /* Module1Endpoint2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5AD9C32663A8D2006E87FB /* Module1Endpoint2.swift */; };
-		0E5AD9C62663A9EA006E87FB /* Module2Endpoint1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5AD9C52663A9EA006E87FB /* Module2Endpoint1.swift */; };
-		0E5AD9C82663A9F5006E87FB /* Module2Endpoint2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5AD9C72663A9F5006E87FB /* Module2Endpoint2.swift */; };
+		0E5AD9C2266276F9006E87FB /* ContactsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5AD9C1266276F9006E87FB /* ContactsModule.swift */; };
+		0E5AD9C42663A8D2006E87FB /* BookmarksEndpointUnavailable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5AD9C32663A8D2006E87FB /* BookmarksEndpointUnavailable.swift */; };
+		0E5AD9C62663A9EA006E87FB /* ContactsEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5AD9C52663A9EA006E87FB /* ContactsEndpoint.swift */; };
 		0E5AD9CA2663AA14006E87FB /* RoutingAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5AD9C92663AA14006E87FB /* RoutingAssembly.swift */; };
-		0E5AD9CC2663AAD4006E87FB /* Module1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5AD9CB2663AAD4006E87FB /* Module1ViewController.swift */; };
-		0E5AD9CE2663AADF006E87FB /* Module2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5AD9CD2663AADF006E87FB /* Module2ViewController.swift */; };
-		0E5AD9D02663AAFA006E87FB /* Module2DetailViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5AD9CF2663AAF9006E87FB /* Module2DetailViewController1.swift */; };
-		0E5AD9D22663AB01006E87FB /* Module1DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5AD9D12663AB01006E87FB /* Module1DetailViewController.swift */; };
-		0E5AD9D42663BBD6006E87FB /* Module1DetailViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5AD9D32663BBD6006E87FB /* Module1DetailViewController2.swift */; };
-		0E5AD9D62663C16D006E87FB /* Module2DetailViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5AD9D52663C16D006E87FB /* Module2DetailViewController2.swift */; };
+		0E5AD9CC2663AAD4006E87FB /* BookmarksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5AD9CB2663AAD4006E87FB /* BookmarksViewController.swift */; };
+		0E5AD9CE2663AADF006E87FB /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5AD9CD2663AADF006E87FB /* ContactsViewController.swift */; };
+		0E5AD9D02663AAFA006E87FB /* ContactsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5AD9CF2663AAF9006E87FB /* ContactsDetailViewController.swift */; };
+		0E5AD9D22663AB01006E87FB /* BookmarksDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5AD9D12663AB01006E87FB /* BookmarksDetailViewController.swift */; };
+		0E5AD9D42663BBD6006E87FB /* BookmarksDetailViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5AD9D32663BBD6006E87FB /* BookmarksDetailViewController2.swift */; };
 		0E5AD9D82663C3B9006E87FB /* RoutingErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5AD9D72663C3B9006E87FB /* RoutingErrorHandler.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,22 +33,20 @@
 		0E5AD9A92662523B006E87FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E5AD9AC2662523B006E87FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E5AD9AE2662523B006E87FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0E5AD9B426625275006E87FB /* Module1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module1.swift; sourceTree = "<group>"; };
+		0E5AD9B426625275006E87FB /* BookmarksModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksModule.swift; sourceTree = "<group>"; };
 		0E5AD9B62662533A006E87FB /* RoutingProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingProvider.swift; sourceTree = "<group>"; };
 		0E5AD9B826625369006E87FB /* RoutingEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingEndpoint.swift; sourceTree = "<group>"; };
-		0E5AD9BD26625C91006E87FB /* Module1Endpoint1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module1Endpoint1.swift; sourceTree = "<group>"; };
+		0E5AD9BD26625C91006E87FB /* BookmarksEndpointDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksEndpointDetail.swift; sourceTree = "<group>"; };
 		0E5AD9BF26625DE6006E87FB /* Module.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module.swift; sourceTree = "<group>"; };
-		0E5AD9C1266276F9006E87FB /* Module2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module2.swift; sourceTree = "<group>"; };
-		0E5AD9C32663A8D2006E87FB /* Module1Endpoint2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module1Endpoint2.swift; sourceTree = "<group>"; };
-		0E5AD9C52663A9EA006E87FB /* Module2Endpoint1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module2Endpoint1.swift; sourceTree = "<group>"; };
-		0E5AD9C72663A9F5006E87FB /* Module2Endpoint2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module2Endpoint2.swift; sourceTree = "<group>"; };
+		0E5AD9C1266276F9006E87FB /* ContactsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsModule.swift; sourceTree = "<group>"; };
+		0E5AD9C32663A8D2006E87FB /* BookmarksEndpointUnavailable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksEndpointUnavailable.swift; sourceTree = "<group>"; };
+		0E5AD9C52663A9EA006E87FB /* ContactsEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsEndpoint.swift; sourceTree = "<group>"; };
 		0E5AD9C92663AA14006E87FB /* RoutingAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingAssembly.swift; sourceTree = "<group>"; };
-		0E5AD9CB2663AAD4006E87FB /* Module1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module1ViewController.swift; sourceTree = "<group>"; };
-		0E5AD9CD2663AADF006E87FB /* Module2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module2ViewController.swift; sourceTree = "<group>"; };
-		0E5AD9CF2663AAF9006E87FB /* Module2DetailViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module2DetailViewController1.swift; sourceTree = "<group>"; };
-		0E5AD9D12663AB01006E87FB /* Module1DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module1DetailViewController.swift; sourceTree = "<group>"; };
-		0E5AD9D32663BBD6006E87FB /* Module1DetailViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module1DetailViewController2.swift; sourceTree = "<group>"; };
-		0E5AD9D52663C16D006E87FB /* Module2DetailViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module2DetailViewController2.swift; sourceTree = "<group>"; };
+		0E5AD9CB2663AAD4006E87FB /* BookmarksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksViewController.swift; sourceTree = "<group>"; };
+		0E5AD9CD2663AADF006E87FB /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		0E5AD9CF2663AAF9006E87FB /* ContactsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsDetailViewController.swift; sourceTree = "<group>"; };
+		0E5AD9D12663AB01006E87FB /* BookmarksDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksDetailViewController.swift; sourceTree = "<group>"; };
+		0E5AD9D32663BBD6006E87FB /* BookmarksDetailViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksDetailViewController2.swift; sourceTree = "<group>"; };
 		0E5AD9D72663C3B9006E87FB /* RoutingErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingErrorHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,12 +94,12 @@
 		0E5AD9BA266259C7006E87FB /* Module1 */ = {
 			isa = PBXGroup;
 			children = (
-				0E5AD9B426625275006E87FB /* Module1.swift */,
-				0E5AD9BD26625C91006E87FB /* Module1Endpoint1.swift */,
-				0E5AD9C32663A8D2006E87FB /* Module1Endpoint2.swift */,
-				0E5AD9CB2663AAD4006E87FB /* Module1ViewController.swift */,
-				0E5AD9D12663AB01006E87FB /* Module1DetailViewController.swift */,
-				0E5AD9D32663BBD6006E87FB /* Module1DetailViewController2.swift */,
+				0E5AD9B426625275006E87FB /* BookmarksModule.swift */,
+				0E5AD9BD26625C91006E87FB /* BookmarksEndpointDetail.swift */,
+				0E5AD9C32663A8D2006E87FB /* BookmarksEndpointUnavailable.swift */,
+				0E5AD9CB2663AAD4006E87FB /* BookmarksViewController.swift */,
+				0E5AD9D12663AB01006E87FB /* BookmarksDetailViewController.swift */,
+				0E5AD9D32663BBD6006E87FB /* BookmarksDetailViewController2.swift */,
 			);
 			path = Module1;
 			sourceTree = "<group>";
@@ -111,12 +107,10 @@
 		0E5AD9BB266259D0006E87FB /* Module2 */ = {
 			isa = PBXGroup;
 			children = (
-				0E5AD9C1266276F9006E87FB /* Module2.swift */,
-				0E5AD9C52663A9EA006E87FB /* Module2Endpoint1.swift */,
-				0E5AD9C72663A9F5006E87FB /* Module2Endpoint2.swift */,
-				0E5AD9CD2663AADF006E87FB /* Module2ViewController.swift */,
-				0E5AD9CF2663AAF9006E87FB /* Module2DetailViewController1.swift */,
-				0E5AD9D52663C16D006E87FB /* Module2DetailViewController2.swift */,
+				0E5AD9C1266276F9006E87FB /* ContactsModule.swift */,
+				0E5AD9C52663A9EA006E87FB /* ContactsEndpoint.swift */,
+				0E5AD9CD2663AADF006E87FB /* ContactsViewController.swift */,
+				0E5AD9CF2663AAF9006E87FB /* ContactsDetailViewController.swift */,
 			);
 			path = Module2;
 			sourceTree = "<group>";
@@ -202,24 +196,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E5AD9CC2663AAD4006E87FB /* Module1ViewController.swift in Sources */,
-				0E5AD9C2266276F9006E87FB /* Module2.swift in Sources */,
-				0E5AD9C62663A9EA006E87FB /* Module2Endpoint1.swift in Sources */,
-				0E5AD9D42663BBD6006E87FB /* Module1DetailViewController2.swift in Sources */,
+				0E5AD9CC2663AAD4006E87FB /* BookmarksViewController.swift in Sources */,
+				0E5AD9C2266276F9006E87FB /* ContactsModule.swift in Sources */,
+				0E5AD9C62663A9EA006E87FB /* ContactsEndpoint.swift in Sources */,
+				0E5AD9D42663BBD6006E87FB /* BookmarksDetailViewController2.swift in Sources */,
 				0E5AD9D82663C3B9006E87FB /* RoutingErrorHandler.swift in Sources */,
-				0E5AD9BE26625C91006E87FB /* Module1Endpoint1.swift in Sources */,
+				0E5AD9BE26625C91006E87FB /* BookmarksEndpointDetail.swift in Sources */,
 				0E5AD9B926625369006E87FB /* RoutingEndpoint.swift in Sources */,
-				0E5AD9B526625275006E87FB /* Module1.swift in Sources */,
+				0E5AD9B526625275006E87FB /* BookmarksModule.swift in Sources */,
 				0E5AD9A12662523A006E87FB /* AppDelegate.swift in Sources */,
-				0E5AD9D62663C16D006E87FB /* Module2DetailViewController2.swift in Sources */,
-				0E5AD9C42663A8D2006E87FB /* Module1Endpoint2.swift in Sources */,
-				0E5AD9D02663AAFA006E87FB /* Module2DetailViewController1.swift in Sources */,
+				0E5AD9C42663A8D2006E87FB /* BookmarksEndpointUnavailable.swift in Sources */,
+				0E5AD9D02663AAFA006E87FB /* ContactsDetailViewController.swift in Sources */,
 				0E5AD9CA2663AA14006E87FB /* RoutingAssembly.swift in Sources */,
 				0E5AD9C026625DE6006E87FB /* Module.swift in Sources */,
-				0E5AD9CE2663AADF006E87FB /* Module2ViewController.swift in Sources */,
-				0E5AD9C82663A9F5006E87FB /* Module2Endpoint2.swift in Sources */,
+				0E5AD9CE2663AADF006E87FB /* ContactsViewController.swift in Sources */,
 				0E5AD9B72662533A006E87FB /* RoutingProvider.swift in Sources */,
-				0E5AD9D22663AB01006E87FB /* Module1DetailViewController.swift in Sources */,
+				0E5AD9D22663AB01006E87FB /* BookmarksDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

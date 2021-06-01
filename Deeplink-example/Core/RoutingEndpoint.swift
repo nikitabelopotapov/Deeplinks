@@ -1,5 +1,5 @@
 //
-//  Endpoint.swift
+//  RoutingEndpoint.swift
 //  Deeplink-example
 //
 //  Created by Nikita Belopotapov on 29.05.2021.

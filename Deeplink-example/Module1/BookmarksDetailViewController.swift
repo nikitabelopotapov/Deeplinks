@@ -1,5 +1,5 @@
 //
-//  Module2DetailViewController2.swift
+//  BookmarksDetailViewController.swift
 //  Deeplink-example
 //
 //  Created by Nikita Belopotapov on 29.05.2021.
@@ -7,12 +7,12 @@
 
 import UIKit
 
-final class Module2DetailViewController2: UIViewController {
+final class BookmarksDetailViewController: UIViewController {
 	private let textLabel = UILabel()
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		textLabel.translatesAutoresizingMaskIntoConstraints = false
-		textLabel.text = "\(Module2DetailViewController2.self)"
+		textLabel.text = "\(BookmarksDetailViewController.self)"
 
 		view.addSubview(textLabel)
 		NSLayoutConstraint.activate([
